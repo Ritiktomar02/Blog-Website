@@ -7,7 +7,7 @@ const initialState = {
    pagenumber: 1,
 }
 
-const baseUrl = process.env.REACT_APP_API_KEY;
+const baseUrl = "https://codehelp-apis.vercel.app/api/get-blogs";
 
 export const fetchdata = createAsyncThunk(
    'fetchdata',
